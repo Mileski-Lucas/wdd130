@@ -47,7 +47,7 @@ main{
 
 .hero{
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/wwr/images/hero.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), scr("/wwr/images/hero.jpg");
     background-size: cover;
     background-position: center;
     display: block;
