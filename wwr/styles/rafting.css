@@ -30,7 +30,7 @@ nav{
     display: flex;
     width: fit-content;
     flex-wrap: wrap;
-    width: -moz-fit-content;
+    width: fit-content;
     justify-content: center;
 }
 
@@ -126,7 +126,7 @@ footer{
 }
 
 footer nav{
-    position: flex;
+    position: sticky;
 }
 
 footer p{
