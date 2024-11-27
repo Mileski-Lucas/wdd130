@@ -30,7 +30,6 @@ nav{
     display: flex;
     width: fit-content;
     flex-wrap: wrap;
-    width: fit-content;
     justify-content: center;
 }
 
@@ -63,6 +62,7 @@ main{
 
 .hero-heading {
     
+    position: absolute;
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
