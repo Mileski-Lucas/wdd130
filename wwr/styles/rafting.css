@@ -130,6 +130,15 @@ footer nav{
     position: sticky;
 }
 
+.sociallinks{
+    width: 25px;
+    height: auto;
+    display: flex;
+    width: fit-content;
+    flex-wrap: wrap;
+    position: sticky;
+}
+
 footer p{
     font-size: 0.7rem;
 }
