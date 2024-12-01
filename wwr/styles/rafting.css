@@ -10,27 +10,30 @@
 
 header{
     background-color: #883300;
-    padding: 2px;
-    display: flex;
-    flex-wrap: wrap;
-    
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 250px 500px 500px;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+        
 }
 
 img{
+    margin: 1rem 1rem 1rem 1rem;
     width: 150px;
     height: auto;
     border: 3px solid black;
     box-shadow: 0 0 30px #003388;
-    margin-right: 30px;
+    
 }
 
-nav{
+.head-menu{
     background-color:#883300;
-    padding: 2px;
     display: flex;
-    width: fit-content;
+    width: 500px;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: right;
 }
 
 nav a{
@@ -101,54 +104,89 @@ section{
     padding: 20px;
 }
 
-p{
-    color: #ffffff;
-    padding: 20px;
-}
-
 h2{
     color:#ffffff;
     padding: 4px;
+    text-align: center;
 }
 
-section img{
-    width: 320px;
+section div{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    vertical-align: top;
+	
+}
+
+section div img{
+    width: 14%;
     height: auto;
     border: 2px solid black;
+    margin: 18px;
     box-shadow: 0 0 30px #003388;
+}
+
+section div p{
+    color: #ffffff;
+    padding: 0;
+    width: 40%;
+    text-align: justify;
+    vertical-align: top;
+}
+
+section h2{
+    color:#ffffff;
+    padding: 4px;
+    text-align: center;
+}
+
+.adventure{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+}
+
+
+section div figure img{
+    width: 85%; 
+    height: auto;
+    border: 2px solid black;
+    box-shadow: 5px #003388;
+    align-items: center;
+    
     
 }
 
-footer{
-    margin-top: 15px;
-    border-top: 1px solid #000;
+section div figure figcaption{
+    color: #ffffff;
     text-align: center;
-    background-color: #883300;
+    align-items: center;
 }
 
-footer nav{
-    position: sticky;
-}
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 10px 20px;
+    background-color:#0055AA;
+  }
 
-.sociallinks{
-    width: 25px;
-    height: auto;
+  footer p {
+    color: #ffffff;
+    grid-column-start: 2;
+    margin: 0 auto;
+    text-align: center;
+    width: 350px;
+  }
+  
+  .sociallinks{
     display: flex;
-    width: fit-content;
-    flex-wrap: wrap;
-    position: sticky;
-}
-
-footer p{
-    font-size: 0.7rem;
-}
-footer img{
-    width: 25px;
-    height: auto;
-    border: 0;
-    box-shadow: 0 0 30px #AA5500;
-}
-
-footer nav a{
-    text-decoration: none;
-}
+    gap: 5px;
+  }
+  
+  footer nav a img {
+    width: 24px;
+    height: 24px;
+    border: none;
+  }
