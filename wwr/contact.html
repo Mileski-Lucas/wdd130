@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <title>Contact Us - Whitewater Rafting</title>
+    <meta name="description" content="contact us page is a page for possible customers from whitewater rafting company find a way to contact
+    ask for a bugdet or get information.">
+    <meta name="author" content="Lucas Mileski">
+    <link rel="stylesheet" href="styles/rafting.css">
+  </head>
+  <body>
+    <header>
+        <img src="images/logo.jpg" alt="Logo" width="100">
+        <nav class="head-menu">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="trips.html">Trips</a>
+          <a href="contact.html">Contact Us</a>
+        </nav>
+      </header>
+      <main>
+        <div class="contact">
+          <article class="contact_phrase">
+            <h2>Get in Touch with Us</h2>
+            <p>We’d love to hear from you! Whether you have questions about our trips, need assistance with your booking, 
+              or simply want to learn more about what we offer, our team is here to help.</p>
+          </article>
+          <article class="contact_details">
+            <h3>Address</h3>
+            <p>3224 Court St, Fayetteville, West Virginia 25840, United States</p>
+            <h3>Phone Number</h3>
+            <p>304-xxx-xxxx</p>
+            <h3>E-mail</h3>
+            <p>whitewaterrafting@whitewater.com</p>
+          </article>
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2643.1964220079967!2d-81.11958619422353!3d38.01659871558359!2m3!
+            1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1733611820034!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" 
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          </div>
+
+          <form action="/submit" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          
+            <label>Purpose of Message:</label>
+            <div class="radio-group">
+              <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+              <label for="general">General Inquiry</label>
+          
+              <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+              <label for="reservation">Reservation Question</label>
+          
+              <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+              <label for="suggestion">Website Suggestion</label>
+            </div>
+          
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          
+            <div class="checkbox-group">
+              <input type="checkbox" id="subscribe" name="subscribe">
+              <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+            </div>
+          
+            <button type="submit">Submit</button>
+          </form>
+
+
+
+          <div class="people">
+            <figure>
+              <img src="images/instructor.jpg" alt="Sample 01">
+              <figcaption>Kevin - Instructor</figcaption>
+            </figure>
+            <figure>
+              <img src="images/lifeguard.jpg" alt="Sample 02">
+              <figcaption>Josh - Lifeguard</figcaption>
+            </figure>
+            <figure>
+              <img src="images/safety monitor.jpg" alt="Sample 03">
+              <figcaption>Andrew - Safety Monitor</figcaption>
+            </figure>
+          </div>
+
+
+        </div>
+
+                        
+      </main>
+      <footer>
+        <p>©️2024 WHITEWATER RAFTING - Lucas Mileski</p>
+        
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook"> 
+            </a>
+            <a href="https://x.com">
+                <img src="images/x.png" alt="X">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+        </nav>
+
+        <div class="wire">
+          <a href="https://app.moqups.com/6caYLfUcQ9fac4l8GoTKXGm8O9tV3Mdd/view/page/ad64222d5">wireframe - contact us</a>
+        </div>
+       
+      </footer>
+  </body>
+</html>

@@ -169,23 +169,128 @@ footer {
     align-items: center;
     padding: 10px 20px;
     background-color:#0055AA;
-  }
+}
 
-  footer p {
+footer p {
     color: #ffffff;
     grid-column-start: 2;
     margin: 0 auto;
     text-align: center;
     width: 350px;
-  }
+}
   
-  .sociallinks{
+.sociallinks{
     display: flex;
     gap: 5px;
-  }
+}
   
-  footer nav a img {
+footer nav a img {
     width: 24px;
     height: 24px;
     border: none;
-  }
+}
+
+form {
+    position: relative;
+    top: -150px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 450px;
+    margin: auto;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.radio-group, .checkbox-group {
+    margin-bottom: 15px;
+}
+
+.radio-group label, .checkbox-group label {
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #AA5500;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0055AA;
+}
+
+.contact{
+    
+    text-align: center;
+    bottom: 20px;
+    left: 20px;
+    padding: 20px;
+}
+
+.contact_phrase{
+    color:#ffffff;
+    text-align: center;
+}
+
+.contact_details{
+    color: #ffffff;
+    text-align:left;
+}
+
+.map{
+    position: relative;
+    right:-300px;
+    top: -220px;
+
+}
+
+.people{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    vertical-align: top;
+    color: #ffffff;
+}
+
+.wire{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    align-items: center;
+}
+
+footer div a{
+    position: relative;
+    left: 450px;
+    top: -10px;
+    padding: 15px;
+    align-items: center;
+
+    color: #ffffff;
+
+}
